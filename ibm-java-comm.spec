@@ -29,11 +29,14 @@ install jre/bin/*.so $RPM_BUILD_ROOT%{jredir}/lib/i386/
 install jre/lib/ext/*.jar $RPM_BUILD_ROOT%{jredir}/lib/ext/ 
 install jre/lib/*.properties $RPM_BUILD_ROOT%{jredir}/lib/
 
+gzip -9nf docs/*
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc docs/*.gz
 %attr(755,root,root) %{jredir}/lib/i386/*.so
 %{jredir}/lib/ext/*.jar
 %{jredir}/lib/*.properties
