@@ -5,20 +5,6 @@ Version:	1.3
 Release:	1
 License:	unknown
 Group:		Development/Languages/Java
-Group(cs):	Vıvojové prostøedky/Programovací jazyky/Java
-Group(da):	Udvikling/Sprog/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(es):	Desarrollo/Lenguajes/Java
-Group(fr):	Development/Langues/Java
-Group(is):	Şróunartól/Forritunarmál/Java
-Group(it):	Sviluppo/Linguaggi/Java
-Group(ja):	³«È¯/¸À¸ì/Java
-Group(no):	Utvikling/Programmeringsspråk/Java
-Group(pl):	Programowanie/Jêzyki/Java
-Group(pt):	Desenvolvimento/Linguagens/Java
-Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Java
-Group(sl):	Razvoj/Jeziki/Java
-Group(sv):	Utveckling/Språk/Java
 Source0:	IBMJava2-JAVACOMM-13.tgz
 URL:		http://www-106.ibm.com/developerworks/java/jdk/linux130/othpkgs.html
 Requires:	jre
