@@ -22,9 +22,6 @@ Communications API supports Electronic Industries Association EIA-232
 (RS232) serial ports and Institute of Electrical and Electronics Engineers
 (IEEE) 1284 parallel ports.
 
-%description -l pl
-N/A
-
 %prep
 %setup  -q	-n IBMJava2-13
 
