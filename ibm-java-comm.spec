@@ -6,7 +6,7 @@ Release:	1
 License:	unknown
 Group:		Java
 Source0:	IBMJava2-JAVACOMM-13.tgz
-URL:		http://www.ibm.com/developer
+URL:		http://www-106.ibm.com/developerworks/java/jdk/linux130/othpkgs.html
 Requires:	jre
 Provides:	java-comm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
