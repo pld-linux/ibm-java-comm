@@ -37,7 +37,7 @@ szeregowych lub równoleg³ych. API to obs³uguje porty szeregowe EIA-232
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{jredir}/lib/{ext,i386}
 install jre/bin/*.so $RPM_BUILD_ROOT%{jredir}/lib/i386/
-install jre/lib/ext/*.jar $RPM_BUILD_ROOT%{jredir}/lib/ext/ 
+install jre/lib/ext/*.jar $RPM_BUILD_ROOT%{jredir}/lib/ext/
 install jre/lib/*.properties $RPM_BUILD_ROOT%{jredir}/lib/
 
 gzip -9nf docs/*
