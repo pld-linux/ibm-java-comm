@@ -4,7 +4,21 @@ Name:		ibm-java-comm
 Version:	1.3
 Release:	1
 License:	unknown
-Group:		Java
+Group:		Development/Languages/Java
+Group(cs):	Vývojové prostøedky/Programovací jazyky/Java
+Group(da):	Udvikling/Sprog/Java
+Group(de):	Entwicklung/Sprachen/Java
+Group(es):	Desarrollo/Lenguajes/Java
+Group(fr):	Development/Langues/Java
+Group(is):	Þróunartól/Forritunarmál/Java
+Group(it):	Sviluppo/Linguaggi/Java
+Group(ja):	³«È¯/¸À¸ì/Java
+Group(no):	Utvikling/Programmeringsspråk/Java
+Group(pl):	Programowanie/Jêzyki/Java
+Group(pt):	Desenvolvimento/Linguagens/Java
+Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Java
+Group(sl):	Razvoj/Jeziki/Java
+Group(sv):	Utveckling/Språk/Java
 Source0:	IBMJava2-JAVACOMM-13.tgz
 URL:		http://www-106.ibm.com/developerworks/java/jdk/linux130/othpkgs.html
 Requires:	jre
@@ -14,16 +28,24 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		jredir			%{_libdir}/java-jre
 
 %description
-Java Communications API gives Java applications a platform-independent way
-of performing serial and parallel port communications for technologies such
-as voice mail, fax, and smartcards. You can use Java Communications API to
-write Java programs that access serial or parallel ports. Java
-Communications API supports Electronic Industries Association EIA-232
-(RS232) serial ports and Institute of Electrical and Electronics Engineers
-(IEEE) 1284 parallel ports.
+Java Communications API gives Java applications a platform-independent
+way of performing serial and parallel port communications for
+technologies such as voice mail, fax, and smartcards. You can use Java
+Communications API to write Java programs that access serial or
+parallel ports. Java Communications API supports Electronic Industries
+Association EIA-232 (RS232) serial ports and Institute of Electrical
+and Electronics Engineers (IEEE) 1284 parallel ports.
+
+%description -l pl
+Java Communications API daje aplikacjom Javy niezale¿ny od platformy
+sposób komunikacji przez port szeregowy i równoleg³y dla potrzeb
+poczty g³osowej, faksów i smartcardów. Java Communications API mo¿e
+byæ u¿ywane do pisania w Javie programów u¿ywaj±cych portów
+szeregowych lub równoleg³ych. API to obs³uguje porty szeregowe EIA-232
+(RS232) oraz równoleg³e IEEE 1284.
 
 %prep
-%setup  -q	-n IBMJava2-13
+%setup  -q -n IBMJava2-13
 
 %install
 rm -rf $RPM_BUILD_ROOT
