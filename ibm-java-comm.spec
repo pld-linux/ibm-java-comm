@@ -1,5 +1,5 @@
 Summary:	Java Communications API
-Summary(pl):	Java Communications API
+Summary(pl.UTF-8):   Java Communications API
 Name:		ibm-java-comm
 Version:	1.3
 Release:	1
@@ -22,13 +22,13 @@ parallel ports. Java Communications API supports Electronic Industries
 Association EIA-232 (RS232) serial ports and Institute of Electrical
 and Electronics Engineers (IEEE) 1284 parallel ports.
 
-%description -l pl
-Java Communications API daje aplikacjom Javy niezaleøny od platformy
-sposÛb komunikacji przez port szeregowy i rÛwnoleg≥y dla potrzeb
-poczty g≥osowej, faksÛw i smartcardÛw. Java Communications API moøe
-byÊ uøywane do pisania w Javie programÛw uøywaj±cych portÛw
-szeregowych lub rÛwnoleg≥ych. API to obs≥uguje porty szeregowe EIA-232
-(RS232) oraz rÛwnoleg≥e IEEE 1284.
+%description -l pl.UTF-8
+Java Communications API daje aplikacjom Javy niezale≈ºny od platformy
+spos√≥b komunikacji przez port szeregowy i r√≥wnoleg≈Çy dla potrzeb
+poczty g≈Çosowej, faks√≥w i smartcard√≥w. Java Communications API mo≈ºe
+byƒá u≈ºywane do pisania w Javie program√≥w u≈ºywajƒÖcych port√≥w
+szeregowych lub r√≥wnoleg≈Çych. API to obs≈Çuguje porty szeregowe EIA-232
+(RS232) oraz r√≥wnoleg≈Çe IEEE 1284.
 
 %prep
 %setup  -q -n IBMJava2-13
