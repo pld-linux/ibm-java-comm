@@ -1,5 +1,5 @@
 Summary:	Java Communications API
-Summary(pl.UTF-8):   Java Communications API
+Summary(pl.UTF-8):	Java Communications API
 Name:		ibm-java-comm
 Version:	1.3
 Release:	1
